@@ -1,0 +1,13 @@
+-- Implementation
+def cubeElements (a : Array Int) : Array Int :=
+  -- << CODE START >>
+  a.map fun x => x * x * x
+  -- << CODE END >>
+
+
+-- Theorem: The length of the output array must be the same as the length of the input array; Each element in the output array is the cube of the corresponding element in the input array
+def cubeElements_spec (a : Array Int) (result : Array Int) : Prop :=
+  -- << SPEC START >>
+  (result.size = a.size) ∧
+  (∀ i, i < a.size → result[i]! = a[i]! * a[i]! * a[i]!)
+  -- << SPEC END >>
