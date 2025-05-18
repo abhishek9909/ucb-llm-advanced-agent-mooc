@@ -1,0 +1,10 @@
+{
+    "name": "countPrimes",
+    "parameters": [
+        {
+            "param_name": "x",
+            "param_type": "Nat"
+        }
+    ],
+    "return_type": "Nat"
+}

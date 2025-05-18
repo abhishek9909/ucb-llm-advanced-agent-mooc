@@ -1,0 +1,12 @@
+-----Description----- 
+This task requires writing a Lean 4 function that takes a natural number and returns a natural number representing the number of natural numbers which are strictly less than 10 raised to the power of the input and where all the digits are unique.
+If the input is greater than 8, return default.
+
+-----Input-----
+The input is a natural number.
+n: A natural number.
+
+-----Output-----
+The output is a natural number:
+Returns the number of natural numbers where all the digits are unique and which are lesser than 10 raised to the power of input. 
+The value is default if the input is greater than 8.

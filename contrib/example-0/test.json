@@ -1,0 +1,38 @@
+[
+    {
+        "input": {
+            "x": 10
+        },
+        "expected": 4,
+        "unexpected": [
+            3, 5
+        ]
+    },
+    {
+        "input": {
+            "x": 0
+        },
+        "expected": 0,
+        "unexpected": [
+            1
+        ]
+    },
+    {
+        "input": {
+            "x": 1
+        },
+        "expected": 1,
+        "unexpected": [
+            1
+        ]
+    },
+    {
+        "input": {
+            "x": 20
+        },
+        "expected": 7,
+        "unexpected": [
+            6, 8
+        ]
+    }
+]

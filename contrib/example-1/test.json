@@ -1,0 +1,29 @@
+[
+    {
+        "input": {
+            "x": 2
+        },
+        "expected": 91,
+        "unexpected": [
+            90,100
+        ]
+    },
+    {
+        "input": {
+            "x": 0
+        },
+        "expected": 1,
+        "unexpected": [
+            0
+        ]
+    },
+    {
+        "input": {
+            "x": 3
+        },
+        "expected": 739,
+        "unexpected": [
+            733, 742
+        ]
+    }
+]

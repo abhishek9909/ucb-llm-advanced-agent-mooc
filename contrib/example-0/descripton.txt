@@ -1,0 +1,10 @@
+-----Description----- 
+This task requires writing a Lean 4 function that takes a natural number as input and returns an integer which represents the number of prime numbers which are strictly less than the input.
+
+-----Input-----
+The input consists of one natural number:
+x: An natural number.
+
+-----Output-----
+The output is a natural number:
+Returns the number of prime numbers strictly less than the input.
